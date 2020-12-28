@@ -5,7 +5,7 @@ silahkan di clone jika ingin di pelajari
 untuk demo klik
 https://dedisutendi.github.io/loping-Javascript/
 
-========================================================================================================================================================
+===================================================================================
 
 This is a Looping exercise with Javascript of various forms of * and #
 
