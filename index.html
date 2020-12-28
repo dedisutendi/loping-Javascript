@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <form id="form1" name="form1" onsubmit="return false">
+        <label for="pilihbintang">Pilih Bentuk Bintang</label>
+        <br>
+        <select name="pilihbintang" id="pilihbintang">
+            <option value="1">Bentuk 1</option>
+            <option value="2">Bentuk 2</option>
+            <option value="3">Bentuk 3</option>
+            <option value="4">Bentuk 4</option>
+            <option value="5">Bentuk 5</option>
+            <option value="6">Bentuk 6</option>
+            <option value="7">Bentuk 7</option>
+            <option value="8">Bentuk 8</option>
+            <option value="9">Bentuk 9</option>
+            <option value="10">Bentuk 10</option>
+            <option value="11">Bentuk 11</option>
+        </select>
+        <br>
+        <label for="tampilkandi">Tampilkan di-</label>
+        <br>
+        <select name="tampilkandi" id="tampilkandi">
+            <option value="1">HTML</option>
+            <option value="2">Console.log</option>
+        </select>
+        <br>
+        <label for="tinggi">Masukan tinggi Segitiga</label>
+        <input type="number" name="tinggi" id="tinggi">
+        <input type="submit" value="Tampilkan Bintang" onclick="tampil()">
+      </form>
+    <div id="parseBintang">
+
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
